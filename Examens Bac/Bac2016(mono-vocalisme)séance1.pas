@@ -35,7 +35,7 @@ procedure afficher(n:integer;t:tab;v:char);
 var i,j,occ:integer;
     test:boolean;
 begin
-     for i := 1 to n do      [parcours du tableau}
+for i := 1 to n do     {parcours du tableau}
      begin
          occ := 0;
          j := 0;
