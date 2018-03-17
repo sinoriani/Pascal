@@ -63,7 +63,7 @@ begin
          p := pos('#',TB[i]);
          val(copy(TB[i],1,p-1 ) , tableaux, e ) ;
          val(copy(TB[i],p+1,length(TB[i])-  length(copy(TB[i],1,p)) ) , tables , e);
-         writeln(tableaux,' ',tables);
+        
         TBU[i] := (p1 * tableaux) + (p2 * tables);
     end;
 end;
